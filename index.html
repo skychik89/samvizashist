@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Сам себе визажист — курс макияжа Анастасии Пономаревой</title>
+  <meta name="description" content="Курс макияжа «Сам себе визажист» от визажиста Анастасии Пономаревой: дневной и вечерний макияж, разбор косметички, постановка руки. 8+ лет опыта, 1000+ учениц.">
+  <meta name="theme-color" content="#FBF6F0">
+
+  <!-- Open Graph: после публикации замените относительные пути на полные,
+       например https://ВАШ-ЛОГИН.github.io/РЕПОЗИТОРИЙ/assets/avatar.png -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:site_name" content="Сам себе визажист">
+  <meta property="og:title" content="Сам себе визажист — курс макияжа">
+  <meta property="og:description" content="Научитесь делать макияж себе — красиво и по-своему. Курс визажиста Анастасии Пономаревой.">
+  <meta property="og:image" content="https://samvizashist.site/assets/avatar.png">
+  <meta property="og:url" content="https://samvizashist.site/">
+  <link rel="canonical" href="https://samvizashist.site/">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="icon" type="image/png" href="assets/avatar.png">
+  <link rel="apple-touch-icon" href="assets/avatar.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@1,400;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<!-- SVG-спрайт -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="star" viewBox="0 0 24 24"><path d="M12 0c.6 6.6 4.2 10.8 12 12-7.8 1.2-11.4 5.4-12 12-.6-6.600-4.200-10.800-12-12 7.800-1.200 11.400-5.400 12-12z"/></symbol>
+  <symbol id="i-tg" viewBox="0 0 24 24"><path d="M21.6 3.4 2.7 10.7c-1 .4-1 1.100-.2 1.300l4.800 1.500 1.800 5.600c.2.600.4.800.9.800.4 0 .6-.2.9-.5l2.200-2.100 4.600 3.400c.8.5 1.500.2 1.700-.8l3-14.400c.3-1.200-.4-1.700-1.400-1.300zM9.200 13.500l9-5.700c.4-.3.800-.1.500.2l-7.400 6.700-.3 3.100-1.800-4.300z"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24"><path d="M7.500 2h9A5.500 5.500 0 0 1 22 7.500v9a5.500 5.500 0 0 1-5.500 5.500h-9A5.500 5.500 0 0 1 2 16.500v-9A5.500 5.500 0 0 1 7.500 2zm0 1.800A3.700 3.700 0 0 0 3.800 7.500v9a3.700 3.700 0 0 0 3.700 3.700h9a3.700 3.700 0 0 0 3.700-3.700v-9a3.700 3.700 0 0 0-3.700-3.700zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.800a3.200 3.200 0 1 0 0 6.400 3.200 3.200 0 0 0 0-6.400zM17.300 5.700a1.200 1.200 0 1 1 0 2.400 1.200 1.200 0 0 1 0-2.400z"/></symbol>
+  <symbol id="i-vk" viewBox="0 0 24 24"><path d="M12.800 17.500C6.600 17.500 3.100 13.200 2.900 6.500h3.100c.1 4.900 2.400 7 4.200 7.400V6.500h2.900v4.200c1.800-.2 3.700-2.100 4.300-4.200h2.900c-.5 2.600-2.400 4.500-3.800 5.300 1.400.7 3.600 2.400 4.400 5.700h-3.200c-.7-2.100-2.400-3.700-4.600-3.900v3.900z"/></symbol>
+</svg>
+
+<header class="topbar">
+  <a class="topbar__logo" href="#top" aria-label="Сам себе визажист — наверх">
+    <svg class="ico" aria-hidden="true"><use href="#star"/></svg>
+    <span>Сам себе визажист</span>
+  </a>
+  <nav class="topbar__nav" aria-label="Разделы">
+    <a href="#about">Обо мне</a>
+    <a href="#tariffs">Тарифы</a>
+    <a href="#works">Работы</a>
+    <a href="#reviews">Отзывы</a>
+    <a href="#faq">Вопросы</a>
+  </nav>
+  <a class="btn btn--sm btn--gold js-book" href="https://t.me/samsebe_vizazhist_bot" target="_blank" rel="noopener">Записаться</a>
+</header>
+
+<main id="top">
+
+  <!-- 1. HERO -->
+  <section class="hero" id="hero">
+    <span class="blob blob--rose" style="top:-80px;right:-120px;width:340px;height:340px"></span>
+    <span class="blob blob--sand" style="bottom:-60px;left:-140px;width:320px;height:320px"></span>
+    <div class="wrap hero__grid">
+      <div class="hero__text">
+        <p class="eyebrow">курс макияжа</p>
+        <h1>Сам себе визажист</h1>
+        <p class="hero__sub">Анастасия Пономарева · визажист · более 8 лет опыта · 1000+ учениц</p>
+        <div class="hero__actions">
+          <a class="btn btn--gold js-book" href="https://t.me/samsebe_vizazhist_bot" target="_blank" rel="noopener">Записаться</a>
+          <a class="btn btn--ghost" href="#tariffs">Тарифы</a>
+        </div>
+      </div>
+      <div class="hero__photo">
+        <div class="arch">
+          <div class="ph" data-label="Сюда: assets/welcome.jpg">
+            <picture>
+              <source srcset="assets/welcome.webp" type="image/webp">
+              <img src="assets/welcome.jpg" alt="Визажист Анастасия Пономарева" width="800" height="1000" fetchpriority="high">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="orn" aria-hidden="true"><span></span><svg class="ico"><use href="#star"/></svg><span></span></div>
+
+  <!-- 2. ОБО МНЕ -->
+  <section class="section about" id="about">
+    <span class="blob blob--rose" style="top:20px;left:-160px;width:300px;height:300px"></span>
+    <div class="wrap about__grid">
+      <div class="about__portrait reveal">
+        <div class="arch arch--sm">
+          <div class="ph is-missing" data-label="Фото Анастасии"></div>
+        </div>
+      </div>
+      <div class="about__text reveal">
+        <p class="eyebrow">обо мне</p>
+        <h2>Пономарева Анастасия</h2>
+        <p>Опыт работы визажистом более 8 лет. Курс «Сам себе визажист» прошли более 1000 девушек: мы вместе собирали косметичку с нуля, разбирали все трудности в макияже и учились разбираться в косметике.</p>
+        <ul class="stats">
+          <li><b>8+</b><span>лет опыта</span></li>
+          <li><b>1000+</b><span>учениц</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. КАК ПРОХОДИТ ЗАНЯТИЕ -->
+  <section class="section steps" id="steps">
+    <div class="wrap">
+      <header class="section__head reveal">
+        <p class="eyebrow">формат</p>
+        <h2>Как проходит занятие</h2>
+      </header>
+      <ol class="steps__list">
+        <li class="reveal" style="--d:0ms"><span class="num">1</span><p>Знакомимся и разбираем вашу косметичку</p></li>
+        <li class="reveal" style="--d:90ms"><span class="num">2</span><p>Показываю технику на вашем лице, шаг за шагом</p></li>
+        <li class="reveal" style="--d:180ms"><span class="num">3</span><p>Вы повторяете сами под моим контролем, ставим руку</p></li>
+        <li class="reveal" style="--d:270ms"><span class="num">4</span><p>Получаете рабочую тетрадь и рекомендации по косметике</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- 4. ТАРИФЫ -->
+  <section class="section tariffs" id="tariffs">
+    <span class="blob blob--rose" style="top:-100px;right:-140px;width:320px;height:320px;opacity:.16"></span>
+    <div class="wrap">
+      <header class="section__head reveal">
+        <p class="eyebrow eyebrow--light">тарифы</p>
+        <h2>Выберите урок</h2>
+        <p class="section__lead">Один урок — 6 000 ₽. Выбирайте дневной или вечерний макияж.</p>
+      </header>
+
+      <div class="cards">
+        <article class="card reveal">
+          <h3>Дневной макияж</h3>
+          <p class="card__price">6 000 ₽ <small>за урок</small></p>
+          <div class="collapsible is-collapsed" id="list-day">
+            <ul class="list">
+              <li>Основы дневного макияжа — естественный ухоженный образ</li>
+              <li>Подбор косметики: лёгкие текстуры, натуральные оттенки</li>
+              <li>Подбор макияжа под ваши анатомические особенности</li>
+              <li>Работа с кожей: ровный тон, сияние, коррекция кремовыми и сухими продуктами, натуральный румянец</li>
+              <li>Оформление бровей</li>
+              <li>Макияж глаз: растушёвка теней, графичные и растушёванные стрелки</li>
+              <li>Макияж губ: подготовка (увлажнение, пилинг) и подбор оттенка</li>
+              <li>Отработка и постановка руки под руководством преподавателя</li>
+            </ul>
+          </div>
+          <button class="more" type="button" aria-expanded="false" aria-controls="list-day">Показать всё</button>
+          <p class="gift"><svg class="ico" aria-hidden="true"><use href="#star"/></svg><span><b>В подарок:</b> рабочая тетрадь от преподавателя и разбор вашей косметички</span></p>
+          <a class="btn btn--gold btn--block js-book" href="https://t.me/samsebe_vizazhist_bot" target="_blank" rel="noopener">Записаться на этот урок</a>
+        </article>
+
+        <article class="card reveal" style="--d:100ms">
+          <h3>Вечерний макияж</h3>
+          <p class="card__price">6 000 ₽ <small>за урок</small></p>
+          <div class="collapsible is-collapsed" id="list-eve">
+            <ul class="list">
+              <li>Отличия вечернего макияжа от дневного, техника под ваш тип лица</li>
+              <li>Подбор косметики и инструментов (кисти, спонжи)</li>
+              <li>Подбор тональных основ, теней и прочего</li>
+              <li>Подготовка кожи: очищение, тональное средство, контуринг, румяна, фиксация</li>
+              <li>Макияж глаз: растушёвка, вечерняя палитра, накладные ресницы</li>
+              <li>Классический смоки или работа с цветом по желанию</li>
+              <li>Брови: коррекция формы, карандаши и гели</li>
+              <li>Губы: вечерний оттенок и подготовка</li>
+            </ul>
+          </div>
+          <button class="more" type="button" aria-expanded="false" aria-controls="list-eve">Показать всё</button>
+          <a class="btn btn--gold btn--block js-book" href="https://t.me/samsebe_vizazhist_bot" target="_blank" rel="noopener">Записаться на этот урок</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. ПРИМЕРЫ РАБОТ -->
+  <section class="section works" id="works">
+    <div class="wrap">
+      <header class="section__head reveal">
+        <p class="eyebrow">до / после</p>
+        <h2>Примеры работ</h2>
+      </header>
+      <div class="gallery gallery--works">
+        <button class="shot reveal" type="button" data-gallery="works" aria-label="Открыть работу 1">
+          <span class="ph" data-label="Сюда: assets/works/w1.jpg"><picture><source srcset="assets/works/w1.webp" type="image/webp"><img src="assets/works/w1.jpg" alt="Работа до и после — 1" loading="lazy"></picture></span>
+        </button>
+        <button class="shot reveal" style="--d:80ms" type="button" data-gallery="works" aria-label="Открыть работу 2">
+          <span class="ph" data-label="Сюда: assets/works/w2.jpg"><picture><source srcset="assets/works/w2.webp" type="image/webp"><img src="assets/works/w2.jpg" alt="Работа до и после — 2" loading="lazy"></picture></span>
+        </button>
+        <button class="shot reveal" style="--d:160ms" type="button" data-gallery="works" aria-label="Открыть работу 3">
+          <span class="ph" data-label="Сюда: assets/works/w3.jpg"><picture><source srcset="assets/works/w3.webp" type="image/webp"><img src="assets/works/w3.jpg" alt="Работа до и после — 3" loading="lazy"></picture></span>
+        </button>
+        <button class="shot reveal" type="button" data-gallery="works" aria-label="Открыть работу 4">
+          <span class="ph" data-label="Сюда: assets/works/w4.jpg"><picture><source srcset="assets/works/w4.webp" type="image/webp"><img src="assets/works/w4.jpg" alt="Работа до и после — 4" loading="lazy"></picture></span>
+        </button>
+        <button class="shot reveal" style="--d:80ms" type="button" data-gallery="works" aria-label="Открыть работу 5">
+          <span class="ph" data-label="Сюда: assets/works/w5.jpg"><picture><source srcset="assets/works/w5.webp" type="image/webp"><img src="assets/works/w5.jpg" alt="Работа до и после — 5" loading="lazy"></picture></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <div class="orn" aria-hidden="true"><span></span><svg class="ico"><use href="#star"/></svg><span></span></div>
+
+  <!-- 6. ОТЗЫВЫ -->
+  <section class="section reviews" id="reviews">
+    <span class="blob blob--sand" style="bottom:-120px;right:-140px;width:320px;height:320px"></span>
+    <div class="wrap">
+      <header class="section__head reveal">
+        <p class="eyebrow">отзывы</p>
+        <h2>Что говорят ученицы</h2>
+      </header>
+      <div class="gallery gallery--reviews">
+        <button class="shot reveal" type="button" data-gallery="reviews" aria-label="Открыть отзыв 1">
+          <span class="ph" data-label="Сюда: assets/reviews/r1.jpg"><picture><source srcset="assets/reviews/r1.webp" type="image/webp"><img src="assets/reviews/r1.jpg" alt="Скриншот отзыва ученицы — 1" loading="lazy"></picture></span>
+        </button>
+        <button class="shot reveal" style="--d:80ms" type="button" data-gallery="reviews" aria-label="Открыть отзыв 2">
+          <span class="ph" data-label="Сюда: assets/reviews/r2.jpg"><picture><source srcset="assets/reviews/r2.webp" type="image/webp"><img src="assets/reviews/r2.jpg" alt="Скриншот отзыва ученицы — 2" loading="lazy"></picture></span>
+        </button>
+        <button class="shot reveal" style="--d:160ms" type="button" data-gallery="reviews" aria-label="Открыть отзыв 3">
+          <span class="ph" data-label="Сюда: assets/reviews/r3.jpg"><picture><source srcset="assets/reviews/r3.webp" type="image/webp"><img src="assets/reviews/r3.jpg" alt="Скриншот отзыва ученицы — 3" loading="lazy"></picture></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. FAQ -->
+  <section class="section faq" id="faq">
+    <div class="wrap wrap--narrow">
+      <header class="section__head reveal">
+        <p class="eyebrow">вопросы</p>
+        <h2>Частые вопросы</h2>
+      </header>
+      <div class="acc reveal">
+        <div class="acc__item">
+          <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="a1" id="q1">Для кого курс?<span class="acc__ico" aria-hidden="true"></span></button></h3>
+          <div class="acc__panel" id="a1" role="region" aria-labelledby="q1"><div><p>Для всех: у нас учатся девушки разного возраста и типа внешности. Курс собирает косметичку с нуля и учит понимать косметику.</p></div></div>
+        </div>
+        <div class="acc__item">
+          <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="a2" id="q2">Что взять с собой?<span class="acc__ico" aria-hidden="true"></span></button></h3>
+          <div class="acc__panel" id="a2" role="region" aria-labelledby="q2"><div><p>Свою косметичку: разберём её и подскажем, что оставить, а что докупить.</p></div></div>
+        </div>
+        <div class="acc__item">
+          <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="a3" id="q3">Сколько стоит?<span class="acc__ico" aria-hidden="true"></span></button></h3>
+          <div class="acc__panel" id="a3" role="region" aria-labelledby="q3"><div><p>Один урок, дневной или вечерний, — 6 000 ₽.</p></div></div>
+        </div>
+        <div class="acc__item">
+          <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="a4" id="q4">Как записаться?<span class="acc__ico" aria-hidden="true"></span></button></h3>
+          <div class="acc__panel" id="a4" role="region" aria-labelledby="q4"><div><p>Нажмите «Записаться»: откроется Telegram-бот, оставьте имя и телефон, Анастасия свяжется с вами.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. ФИНАЛЬНЫЙ ПРИЗЫВ -->
+  <section class="final" id="final">
+    <span class="blob blob--rose" style="top:-100px;left:-120px;width:320px;height:320px"></span>
+    <span class="blob blob--sand" style="bottom:-120px;right:-120px;width:320px;height:320px"></span>
+    <div class="wrap wrap--narrow final__box reveal">
+      <svg class="ico ico--lg" aria-hidden="true"><use href="#star"/></svg>
+      <h2>Научитесь делать макияж себе — красиво и по-своему</h2>
+      <a class="btn btn--gold btn--lg js-book" href="https://t.me/samsebe_vizazhist_bot" target="_blank" rel="noopener">Записаться в Telegram</a>
+    </div>
+  </section>
+</main>
+
+<!-- 9. ФУТЕР -->
+<footer class="footer" id="footer">
+  <div class="wrap footer__inner">
+    <p class="footer__brand">Сам себе визажист</p>
+    <ul class="social">
+      <li><a href="https://t.me/bambyk100" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-tg"/></svg><span>Telegram</span></a></li>
+      <li><a href="https://www.instagram.com/mk.anastasia" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-ig"/></svg><span>Instagram</span></a></li>
+      <li><a href="https://vk.ru/nastyaponama" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-vk"/></svg><span>ВКонтакте</span></a></li>
+    </ul>
+    <p class="footer__copy">© 2026 Анастасия Пономарева</p>
+    <p class="footer__made">Сайт — <a href="https://neelux.is-a.dev" target="_blank" rel="noopener">Neelux</a></p>
+  </div>
+</footer>
+
+<!-- Закреплённая кнопка (мобильные) -->
+<div class="sticky" id="sticky" aria-hidden="true">
+  <a class="btn btn--gold btn--block" href="https://t.me/samsebe_vizazhist_bot" target="_blank" rel="noopener" tabindex="-1">Записаться</a>
+</div>
+
+<!-- Лайтбокс -->
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Просмотр изображения" hidden>
+  <button class="lb__btn lb__close" type="button" aria-label="Закрыть">&times;</button>
+  <button class="lb__btn lb__prev" type="button" aria-label="Предыдущее">&#8249;</button>
+  <button class="lb__btn lb__next" type="button" aria-label="Следующее">&#8250;</button>
+  <div class="lb__stage">
+    <img class="lb__img" alt="">
+    <div class="lb__ph" hidden></div>
+  </div>
+  <p class="lb__count" aria-live="polite"></p>
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
